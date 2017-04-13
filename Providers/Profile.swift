@@ -1198,7 +1198,7 @@ open class BrowserProfile: Profile {
 
         /**
          * Allows selective sync of different collections, for use by external APIs.
-         * Some help is given to callers who use different namespaces (specifically: `passowrds` is mapped to `logins`)
+         * Some help is given to callers who use different namespaces (specifically: `passwords` is mapped to `logins`)
          * and to preserve some ordering rules.
          */
         public func syncNamedCollections(why: SyncReason, names: [String]) -> Success {
